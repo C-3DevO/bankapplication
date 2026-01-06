@@ -37,7 +37,7 @@ struct Transaction {
     char details[100];
 };
 
-📂 FILE STRUCTURE
+##  FILE STRUCTURE
 .
 ├── main.c                # Core application logic
 ├── users.dat             # Binary file storing user records
@@ -48,7 +48,8 @@ NOTE:
 users.dat and transactions.dat are created automatically at runtime.
 ────────────────────────────────────
 
-MENU OPTIONS
+##  MENU OPTIONS
+────────────────────────────────────
 1: Add Users
 2: Deposit
 3: Withdraw
@@ -56,10 +57,10 @@ MENU OPTIONS
 5: Search Account
 6: Show Transactions
 7: Exit
-
 ────────────────────────────────────
 
-SECURITY RULES IMPLEMENTED
+##  SECURITY RULES IMPLEMENTED
+────────────────────────────────────
 • Password authentication required for:
   - Deposits
   - Withdrawals
@@ -69,7 +70,8 @@ SECURITY RULES IMPLEMENTED
   - Incorrect password
 ────────────────────────────────────
 
-COMPILATION & EXECUTION
+##   COMPILATION & EXECUTION
+──────────────────────────────────── 
 Compile:
 gcc main.c -o banking_system
 
@@ -78,14 +80,9 @@ Run:
 
 ────────────────────────────────────
 
-EXAMPLE TRANSACTION LOG OUTPUT
---- Transactions for Account 4567 ---
-1. Deposited: $1000.00 || Balance: $2500.00
-2. Withdrew: $500.00 || Balance: $2000.00
 
+## CONCEPTS DEMONSTRATED
 ────────────────────────────────────
-
-CONCEPTS DEMONSTRATED
 • Structs and arrays
 • Binary file handling (fread, fwrite)
 • Input validation
@@ -94,7 +91,7 @@ CONCEPTS DEMONSTRATED
 • Menu-driven CLI applications
 ────────────────────────────────────
 
-POSSIBLE ENHANCEMENTS
+## POSSIBLE ENHANCEMENTS
 • Hash passwords instead of plaintext
 • Admin vs User roles
 • Export transactions to text / CSV

@@ -8,8 +8,8 @@ This project demonstrates **structured programming, file I/O, data persistence, 
 
 ##  Features
 
--  Create and store multiple bank users (up to 100)
--  Password-protected deposits and withdrawals
+- Create and store multiple bank users (up to 100)
+- Password-protected deposits and withdrawals
 - Persistent data storage using binary files
 - Transaction logging and history per account
 - Account lookup by account number
@@ -36,14 +36,16 @@ struct Transaction {
     int accountno;
     char details[100];
 };
+```
 
 ##  FILE STRUCTURE
+```
 .
 ├── main.c                # Core application logic
 ├── users.dat             # Binary file storing user records
 ├── transactions.dat      # Binary file storing transaction logs
 └── README.md
-
+```
 NOTE:
 users.dat and transactions.dat are created automatically at runtime.
 ────────────────────────────────────
